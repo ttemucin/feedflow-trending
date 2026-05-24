@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FeedFlow Trending</title>
+  <style>
+    body {
+      font-family: -apple-system, system-ui, sans-serif;
+      max-width: 640px;
+      margin: 40px auto;
+      padding: 0 16px;
+      color: #1a1a1a;
+      line-height: 1.5;
+    }
+    code { background: #f3f3f3; padding: 1px 6px; border-radius: 4px; }
+    pre { background: #f3f3f3; padding: 16px; border-radius: 8px; overflow-x: auto; }
+    h1 { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <h1>FeedFlow Trending</h1>
+  <p>
+    Hosts the weekly-curated "Trending This Week" feed list shown in the
+    FeedFlow Android app's Discover screen.
+  </p>
+  <p>Current manifest: <a href="v1/trending.json"><code>v1/trending.json</code></a></p>
+  <h2>How to update</h2>
+  <p>Edit <code>v1/trending.json</code> in the repo, push to <code>main</code>. The app
+  refreshes its cache once per 7 days via WorkManager and uses a bundled fallback
+  list when this URL is unreachable.</p>
+  <h2>Schema</h2>
+  <pre>{
+  "version": 1,
+  "updatedAt": "YYYY-MM-DD",
+  "entries": [
+    {
+      "name": "Feed Name",
+      "url": "https://example.com/feed.xml",
+      "category": "Tech",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=example.com&sz=64",
+      "description": "Short tag line",
+      "rank": 1
+    }
+  ]
+}</pre>
+</body>
+</html>

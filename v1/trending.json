@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-24",
+  "entries": [
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category": "Tech",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=theverge.com&sz=64",
+      "description": "Tech, science, art, and culture",
+      "rank": 1
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "category": "Tech",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=news.ycombinator.com&sz=64",
+      "description": "Social news for hackers",
+      "rank": 2
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "category": "AI & ML",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+      "description": "Claude research, products, and policy",
+      "rank": 3
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog/rss.xml",
+      "category": "AI & ML",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+      "description": "OpenAI announcements and research",
+      "rank": 4
+    },
+    {
+      "name": "The Atlantic",
+      "url": "https://www.theatlantic.com/feed/all/",
+      "category": "Culture",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=theatlantic.com&sz=64",
+      "description": "Long-form essays on culture and politics",
+      "rank": 5
+    },
+    {
+      "name": "BBC News",
+      "url": "http://feeds.bbci.co.uk/news/rss.xml",
+      "category": "News",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=bbc.co.uk&sz=64",
+      "description": "Latest UK and world news",
+      "rank": 6
+    },
+    {
+      "name": "NPR News",
+      "url": "https://feeds.npr.org/1001/rss.xml",
+      "category": "News",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=npr.org&sz=64",
+      "description": "Top stories from NPR",
+      "rank": 7
+    },
+    {
+      "name": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/feed/",
+      "category": "Science",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=quantamagazine.org&sz=64",
+      "description": "Math and basic-science deep dives",
+      "rank": 8
+    },
+    {
+      "name": "The Debrief",
+      "url": "https://thedebrief.org/feed/",
+      "category": "Conspiracy",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=thedebrief.org&sz=64",
+      "description": "UAPs, fringe science, and intelligence reporting",
+      "rank": 9
+    },
+    {
+      "name": "Reactor (Tor.com)",
+      "url": "https://reactormag.com/feed/",
+      "category": "Sci-Fi",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=reactormag.com&sz=64",
+      "description": "Science fiction and fantasy news, fiction, essays",
+      "rank": 10
+    }
+  ]
+}
