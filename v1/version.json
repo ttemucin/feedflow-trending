@@ -1,8 +1,8 @@
 {
-  "versionCode": 22,
-  "versionName": "v22",
+  "versionCode": 23,
+  "versionName": "v23",
   "downloadUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest/download/feedflow-debug.apk",
   "releasePageUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest",
   "releasedAt": "2026-05-24",
-  "releaseNotes": "Discover redesign: list grouped by category · 'Only new to me' filter · compact trending cards"
+  "releaseNotes": "Audited feed catalog — removed 14 dead/hallucinated URLs, fixed 3, trending no longer 404s"
 }

@@ -19,11 +19,11 @@
       "rank": 2
     },
     {
-      "name": "Anthropic News",
-      "url": "https://www.anthropic.com/news/rss.xml",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
       "category": "AI & ML",
-      "iconUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-      "description": "Claude research, products, and policy",
+      "iconUrl": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=64",
+      "description": "Open-source ML community",
       "rank": 3
     },
     {
