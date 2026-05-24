@@ -1,8 +1,8 @@
 {
-  "versionCode": 18,
-  "versionName": "v18",
+  "versionCode": 19,
+  "versionName": "v19",
   "downloadUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest/download/feedflow-debug.apk",
   "releasePageUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest",
   "releasedAt": "2026-05-24",
-  "releaseNotes": "Settings → About: shows version and a manual 'Check for updates' control"
+  "releaseNotes": "Scroll-aware FAB · feed list bottom padding so last item is never under the + button"
 }
