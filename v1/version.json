@@ -1,8 +1,8 @@
 {
-  "versionCode": 20,
-  "versionName": "v20",
+  "versionCode": 21,
+  "versionName": "v21",
   "downloadUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest/download/feedflow-debug.apk",
   "releasePageUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest",
   "releasedAt": "2026-05-24",
-  "releaseNotes": "Update banner now shows current build number vs available — makes silent-install-fail (Play Protect) obvious"
+  "releaseNotes": "Update check bypasses HTTP cache — fixes stale banner after install"
 }
