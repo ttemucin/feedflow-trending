@@ -31,6 +31,28 @@ unreachable.
 }
 ```
 
-Categories used by the app (v13): All, AI & ML, Business, Climate, Conspiracy,
+Categories used by the app (v13+): All, AI & ML, Business, Climate, Conspiracy,
 Culture, Design, Dev, Entertainment, Finance, Food, Health, News, Sci-Fi,
 Science, Sports, Tech, Travel.
+
+## Version manifest
+
+`v1/version.json` advertises the latest available APK. The app fetches it once
+on launch and shows an "Update available" banner if `versionCode` is higher than
+its own `BuildConfig.VERSION_CODE`. Tapping the banner opens `releasePageUrl` in
+a Custom Tab so the user can download the APK from the GitHub Release.
+
+```jsonc
+{
+  "versionCode": 15,                                            // monotonically increasing
+  "versionName": "v15",                                         // user-visible
+  "downloadUrl":     "https://github.com/.../releases/latest/download/feedflow-debug.apk",
+  "releasePageUrl":  "https://github.com/.../releases/latest",
+  "releasedAt":      "YYYY-MM-DD",
+  "releaseNotes":    "Short one-line summary"
+}
+```
+
+**Cadence:** updated by hand alongside each new release. The companion APK is
+attached to a GitHub Release on this repo (filename must be
+`feedflow-debug.apk` for the `latest/download/` redirect to work).
