@@ -1,8 +1,8 @@
 {
-  "versionCode": 16,
-  "versionName": "v16",
+  "versionCode": 17,
+  "versionName": "v17",
   "downloadUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest/download/feedflow-debug.apk",
   "releasePageUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest",
   "releasedAt": "2026-05-24",
-  "releaseNotes": "Add Feed is much faster — parallel discovery probing, 25s overall cap, browser-style User-Agent"
+  "releaseNotes": "Preview feeds before subscribing · refresh on app launch"
 }
