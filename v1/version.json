@@ -1,8 +1,8 @@
 {
-  "versionCode": 19,
-  "versionName": "v19",
+  "versionCode": 20,
+  "versionName": "v20",
   "downloadUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest/download/feedflow-debug.apk",
   "releasePageUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest",
   "releasedAt": "2026-05-24",
-  "releaseNotes": "Scroll-aware FAB · feed list bottom padding so last item is never under the + button"
+  "releaseNotes": "Update banner now shows current build number vs available — makes silent-install-fail (Play Protect) obvious"
 }
