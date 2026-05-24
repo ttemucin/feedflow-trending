@@ -1,8 +1,8 @@
 {
-  "versionCode": 21,
-  "versionName": "v21",
+  "versionCode": 22,
+  "versionName": "v22",
   "downloadUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest/download/feedflow-debug.apk",
   "releasePageUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest",
   "releasedAt": "2026-05-24",
-  "releaseNotes": "Update check bypasses HTTP cache — fixes stale banner after install"
+  "releaseNotes": "Discover redesign: list grouped by category · 'Only new to me' filter · compact trending cards"
 }
