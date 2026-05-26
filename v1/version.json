@@ -1,8 +1,8 @@
 {
-  "versionCode": 27,
-  "versionName": "v27",
+  "versionCode": 28,
+  "versionName": "v28",
   "downloadUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest/download/feedflow-debug.apk",
   "releasePageUrl": "https://github.com/ttemucin/feedflow-trending/releases/latest",
-  "releasedAt": "2026-05-25",
-  "releaseNotes": "Compact one-line update banner · shown once per release · defensive guard against same-version banner"
+  "releasedAt": "2026-05-26",
+  "releaseNotes": "HTTP feeds work again (cleartext allowed) · 'Subscribe anyway' button on preview failure · clearer error copy"
 }
